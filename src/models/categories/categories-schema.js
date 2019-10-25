@@ -2,6 +2,7 @@
 
 const mongoose = require('mongoose');
 
+// set up data-types to track
 const categories = mongoose.Schema({
   name: { type: String, required: true },
   description: { type: String },
