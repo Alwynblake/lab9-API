@@ -3,6 +3,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
+// connect it to a mongoose database--Run mongo daemon in the background
 const mongooseOptions = {
   useNewUrlParser:true,
   useCreateIndex: true,
